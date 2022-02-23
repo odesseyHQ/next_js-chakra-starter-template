@@ -3,7 +3,9 @@ This is a template for next js projects with chakra ui
 
 # Getting Started
 ## How to create the quick start ?
+```bash
 npx create-next-app --example odesseyHQ/next_js-chakra-starter-template <YOUR_APP_NAME>
+```
   
 # Technlogies we use
 - Node package manager: **yarn**
