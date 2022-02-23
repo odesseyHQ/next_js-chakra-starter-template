@@ -1,0 +1,36 @@
+/* Text - heading, paragraphs and subtitles*/
+h1 {
+  @apply text-5xl leading-10 tracking-tighter font-semibold text-left;
+  @apply w-max;
+}
+h2 {
+  @apply w-max;
+}
+h3 {
+  /* //styleName: component-heading-small/xl; */
+  font-family: Inter;
+  @apply text-3xl leading-10 tracking-normal font-semibold text-left;
+  @apply w-max;
+}
+h4 {
+  /* //styleName: text-2xl/lineHeight-6/font-semibold; */
+  font-family: Inter;
+  @apply text-base leading-5 tracking-normal font-semibold text-left;
+  @apply w-max;
+}
+
+h5 {
+  /* //styleName: text-2xl/lineHeight-6/font-semibold; */
+  font-family: Inter;
+  @apply text-xs leading-5 tracking-normal font-extrabold text-left;
+  @apply w-max;
+}
+
+p {
+  font-family: Inter;
+  @apply text-sm leading-4 tracking-normal font-normal text-left;
+}
+
+.normal_text_style {
+  @apply font-normal text-base;
+}

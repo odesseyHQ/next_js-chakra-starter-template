@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html{
+  width: 100% !important;
+} */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  font-family: Inter;
+  /* Constants */
+  --mobile-scr-wt: 480px;
+  --tablet-scr-wt: 768px;
+  --laptop-scr-wt: 1200px;
+}
+@layer base {
+  h1 {
+    @apply text-6xl;
+  }
+  h2 {
+    @apply text-xl;
+    @apply font-bold;
+  }
+  h3 {
+    @apply text-lg;
+    @apply font-bold;
+  }
+  h4 {
+    @apply text-lg;
+    @apply font-medium;
+  }
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Font faces */
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Black.ttf");
+  font-style: black;
+  font-weight: 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-ExtraBold.ttf");
+  font-style: extra-bold;
+  font-weight: 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Bold.ttf");
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-SemiBold.ttf");
+  font-style: semi-bold;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Medium.ttf");
+  font-style: medium;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Regular.ttf");
+  font-style: regular;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Light.ttf");
+  font-style: light;
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-ExtraLight.ttf");
+  font-style: extra-light;
+  font-weight: 200;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Thin.ttf");
+  font-style: thin;
+  font-weight: 100;
+  font-display: swap;
+}
+/* CompanyLogo font */
+@font-face {
+  font-family: "Righteous";
+  src: url("/fonts/Righteous/Righteous-Regular.ttf");
+  font-style: regular;
+  font-weight: 400;
+  font-display: swap;
+}
+/* ----------------------------- */
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-tr from-red-300 to-red-500;
+  /* @apply bg-red-400; */
+  border-radius: 2rem;
+}
+::-webkit-scrollbar-track {
+  /* background: rgb(95, 105, 126); */
+  @apply bg-red-200;
+  border-radius: 2rem;
+}

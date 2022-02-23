@@ -1,0 +1,24 @@
+.title_banner_wrapper {
+  @apply w-full flex flex-row  justify-between mt-10;
+}
+
+.title_banner_header {
+  @apply flex flex-col justify-center tablet:items-center w-2/3 tablet:w-full max-w-xl font-semibold;
+}
+
+.title_banner_heading {
+  @apply mt-16 w-11/12 mobile:mt-2 text-5xl tablet:text-center;
+}
+
+.title_banner_content {
+  @apply w-4/5 mt-8 text-base	 justify-between content-center tablet:w-full tablet:text-center;
+}
+.title_banner_button {
+  @apply flex flex-row justify-center text-center items-center w-60 h-8 mt-8 bg-red-500 font-normal text-sm leading-none text-white rounded-md content-center;
+}
+.title_banner_content_strong {
+  @apply text-red-500 font-semibold;
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+}

@@ -1,0 +1,40 @@
+{
+  "name": "odessey-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build+export": "next build && next export",
+    "start": "next start",
+    "lint": "next lint -c ./.eslintrc.json",
+    "prepare": "cd ../ husky install",
+    "pre-commit": "next lint -c ./.eslintrc.json"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.7.3",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@svgr/webpack": "^5.5.0",
+    "framer-motion": "^5.6.0",
+    "framer-motion--monorepo": "framer/motion",
+    "husky": "^7.0.4",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-lottie": "^1.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.27",
+    "@types/react-lottie": "^1.2.6",
+    "@typescript-eslint/parser": "^5.8.0",
+    "autoprefixer": "^10.3.7",
+    "eslint": "^8.5.0",
+    "eslint-config-next": "^12.0.7",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.16",
+    "typescript": "^4.5.4"
+  }
+}

@@ -1,0 +1,6 @@
+.container {
+  @apply min-h-0 min-w-min;
+}
+.container::before {
+  content: '\200B';
+}
